@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .main{
+        @apply px-16  container mx-auto h-screen;
+    }
+    .carddetail , .card{
+      
+        border: 1px solid black;
+    }
+    .card:hover{
+       
+        transition: 0.5s;
+        transform: rotate(10deg);
+        filter:  drop-shadow(1px 1px 20px black) ;
+    }
+    .navbar{
+        background-color: gray;
+    }
+}
